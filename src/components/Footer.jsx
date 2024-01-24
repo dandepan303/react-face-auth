@@ -3,14 +3,14 @@ import React from "react";
 function Footer() {
   return (
     <h6 className="text-sm text-center w-full">
-      Created via 💙{" "}
+      Created with 💙 by {" "}
       <a
-        href="https://github.com/BilalGumus"
+        href="https://github.com/dandepan303"
         target="_blank"
-        alt="Bilal Gümüş's GitHub Account"
+        alt="Dean's GitHub Account"
         className="hover:underline"
       >
-        Bilal Gümüş
+        Dean Hiranburana
       </a>
     </h6>
   );
