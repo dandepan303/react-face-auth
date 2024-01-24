@@ -43,7 +43,7 @@ function UserSelect() {
 
   return (
     <div className="h-full flex flex-col items-center justify-center gap-[24px] w-full max-w-[720px] mx-auto">
-      <h1 className="text-2xl font-semibold">Select a Dummy User to Log In</h1>
+      <h1 className="text-2xl font-semibold">Select a user to Log In</h1>
       <div className="w-full p-4 text-right">
         <div className="mx-auto w-full max-w-md">
           <RadioGroup value={selected} onChange={setSelected}>
@@ -77,7 +77,7 @@ function UserSelect() {
               )}
             </div>
           </RadioGroup>
-          {!customUser && (
+          {/*{!customUser && (
             <div className="flex flex-col items-center justify-center w-full mt-3">
               <label
                 htmlFor="dropzone-file"
@@ -147,7 +147,7 @@ function UserSelect() {
                 <p className="text-red-500 text-xs mt-2">{errorMessage}</p>
               )}
             </div>
-          )}
+          )}*/}
           <Link
             to="/login"
             state={{ account: selected }}
