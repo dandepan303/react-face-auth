@@ -43,7 +43,7 @@ function UserSelect() {
 
   return (
     <div className="h-full flex flex-col items-center justify-center gap-[24px] w-full max-w-[720px] mx-auto">
-      <h1 className="text-2xl font-semibold">Select a user to Log In</h1>
+      <h1 className="text-2xl font-semibold">Select a user to log in</h1>
       <div className="w-full p-4 text-right">
         <div className="mx-auto w-full max-w-md">
           <RadioGroup value={selected} onChange={setSelected}>
