@@ -168,7 +168,7 @@ function Login() {
       <div className="min-h-screen flex flex-col items-center justify-center gap-[24px] max-w-[840px] mx-auto">
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-rose-700 sm:text-4xl">
           <span className="block">
-            Upps! There is no profile picture associated with this account.
+            There is no profile picture associated with this account.
           </span>
         </h2>
         <span className="block mt-4">
@@ -183,7 +183,7 @@ function Login() {
       {!localUserStream && !modelsLoaded && (
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span className="block">
-            You're Attempting to Log In With Your Face.
+            You're attempting to log in with your face.
           </span>
           <span className="block text-indigo-600 mt-2">Loading Models...</span>
         </h2>
@@ -191,24 +191,24 @@ function Login() {
       {!localUserStream && modelsLoaded && (
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span className="block text-indigo-600 mt-2">
-            Please Recognize Your Face to Completely Log In.
+            Please scan your face to log in.
           </span>
         </h2>
       )}
       {localUserStream && loginResult === "SUCCESS" && (
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span className="block text-indigo-600 mt-2">
-            We've successfully recognize your face!
+            We've successfully recognized your face!
           </span>
           <span className="block text-indigo-600 mt-2">
-            Please stay {counter} more seconds...
+            Please stay in the frame for {counter} more seconds...
           </span>
         </h2>
       )}
       {localUserStream && loginResult === "FAILED" && (
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-rose-700 sm:text-4xl">
           <span className="block mt-[56px]">
-            Upps! We did not recognize your face.
+            We did not recognize your face.
           </span>
         </h2>
       )}
