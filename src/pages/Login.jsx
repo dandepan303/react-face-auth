@@ -183,22 +183,22 @@ function Login() {
       {!localUserStream && !modelsLoaded && (
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span className="block">
-            You're attempting to log in with your face.
+            You're attempting to log in with your face
           </span>
-          <span className="block text-indigo-600 mt-2">Loading Models...</span>
+          <span className="block text-indigo-600 mt-2">Loading models...</span>
         </h2>
       )}
       {!localUserStream && modelsLoaded && (
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span className="block text-indigo-600 mt-2">
-            Please scan your face to log in.
+            Please scan your face to log in
           </span>
         </h2>
       )}
       {localUserStream && loginResult === "SUCCESS" && (
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span className="block text-indigo-600 mt-2">
-            We've successfully recognized your face!
+            We've successfully recognized your face
           </span>
           <span className="block text-indigo-600 mt-2">
             Please stay in the frame for {counter} more seconds...
