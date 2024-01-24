@@ -7,7 +7,7 @@ const accounts = [
   {
     id: "374ed1e4-481b-4074-a26e-6137657c6e35",
     fullName: "Dean Hiranburana",
-    picture: "374ed1e4-481b-4074-a26e-6137657c6e35/1.jpg",
+    picture: "374ed1e4-481b-4074-a26e-6137657c6e35/dean.jpg",
   },
   {
     id: "43332f46-89a4-435c-880e-4d72bb51149a",
