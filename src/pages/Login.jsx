@@ -287,7 +287,7 @@ function Login() {
                       fill="#1C64F2"
                     />
                   </svg>
-                  Please wait while models were loading...
+                  Please wait while our models load...
                 </button>
               </>
             )}
