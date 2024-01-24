@@ -17,7 +17,7 @@ const accounts = [
   {
     id: "b8476d8d-bd7e-405f-aa66-9a22a9727930",
     fullName: "Henry Grenz",
-    picture: "/b8476d8d-bd7e-405f-aa66-9a22a9727930/1.jpg",
+    picture: "b8476d8d-bd7e-405f-aa66-9a22a9727930/1.jpg",
   },
 ];
 
