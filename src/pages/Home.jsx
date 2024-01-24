@@ -14,9 +14,8 @@ function Home() {
           </h1>
           <p className="mt-8 text-md text-gray-600 max-w-3xl mx-4 md:mx-16 lg:mx-auto">
             Colab Chat 3.0 is a state-of-the art chat application that uses
-            face authentication for fast and secure passwordless login. No
-            more impersonating people or unauthorized access. Created using
-            React and face-api.js.
+            face authentication for fast and secure passwordless login. Created
+            using React and face-api.js.
           </p>
           <Link
             to={"/user-select"}
